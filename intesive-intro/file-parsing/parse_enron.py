@@ -10,7 +10,7 @@ __email__ = "adhanas@ncsu.edu"
 
 import re
 
-data_filename = "data/enron-lay-k-inbox.txt"
+data_filename = "data/enron-lay-k-inbox.sample"
 
 with open(data_filename) as file_hdl:
     full_text = file_hdl.read()
